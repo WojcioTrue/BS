@@ -42,15 +42,7 @@
 
 ## Setup
 **How to install**<br/>
-Download folders from 'dist' folder.
-Copy them to your website project.
-Add css href in `</head>` element e.g.
-
-    <link rel="stylesheet" href="dist/css/style.css">
-Add script before `</body>` tag and initiate e.g.
-
-    <script src ="dist/js/particles.js"></script>
-    <script>practiceInit();</script>
+To use this carousele you need to install *Bootstrap*
 
 ## Usage
 After download and adding to your website, you need to choose which element should have this animated background.

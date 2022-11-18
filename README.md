@@ -28,14 +28,6 @@
 - ESLint
 - Gulp
 - Bootstrap (4.1.3)
-- RWD
-
-
-
-## Features
-
-
-
 
 ## Screenshot
 ### mobile view

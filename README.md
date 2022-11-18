@@ -15,7 +15,7 @@
 
 
 ## General Information
-- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*, used in many portfolio's of others developers.
+- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*,because it's used in many portfolio's of others developers.
 - this is alternative for Bootstrap carousele, with icons and captions for active element in carousele.
 
 - this is early version. **Works only with 3 elements/icons in carousele**.

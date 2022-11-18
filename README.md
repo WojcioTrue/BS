@@ -27,40 +27,13 @@
 - SASS
 - ESLint
 - Gulp
+- Bootstrap (4.1.3)
 - RWD
 
 
 
 ## Features
-There are some values for plugin that you can change. All these values (except data-el-color), are interpreted as pixel values.
-- **Setting left margin of particle (default value=50)**
 
-If we don't specify a value, particle will be generated in the left side of window, with left margin set between 0 to 50px (value generated randomly).
-
-	data-left-margin-start="20"
-
-- **setting maximum size of particle (default value=5)**
-
-Maximum width and height of particle.
-
-	data-max-dimension="5"
-
-
-- **setting minimum size of particle (default value=5)**
-
-Minimum width and height of particle.
-
-	data-min-dimension="5"
-
-
-- **setting color of particle**
-
-If we don't specify a value, particle will have black color.
-
-	data-el-color="gold"
-
-- **mobile friendly**
-- **RWD**
 
 
 

@@ -60,6 +60,9 @@ After you successfully setup your environment, paste code below where you want t
     <section class='carousele__section'>
          <div class="container">
             <div class="row">
+            
+             <!-- container with text -->
+             
                <div class="col-12 col-md-6 carousele__section--text">
                   <h2>Title</h2>
                   <!-- data-text-index for comparasion with data-icon index -->
@@ -69,23 +72,32 @@ After you successfully setup your environment, paste code below where you want t
                   <br>
                   <p class="carousele__text" data-text-index="3">Description for repeat icon</p>
                </div>
+               
+               <!-- container with icons -->
+               
                <div class="col-12 col-md-6 col-lg-6 carousele__section--svg">
+               
+                <!-- navigation icons -->
+               
                   <span class="control__arrows__field" id="right">
                   <img class="carousele__control__arrows"  src="src/icons/arrow_left.png">
                   </span>
                   <span class="control__arrows__field" id="left">
                   <img class="carousele__control__arrows"  src="src/icons/arrow_right.png">
                   </span>
+                  
+                <!-- icons in carousele -->
+                  
                   <div id="carousele__section--icons">
-                     <!-- data-icon-index for comparasion with data-text-index -->
                      <img class="carousele__icon 
                         carousele__icon--left"
                         data-icon-index="3"
                         src="src/icons/second_section_icons/reload.svg">
+                        
                      <img class="carousele__icon carousele__icon--active"
                         data-icon-index="1"
-                        src="src/icons/second_section_icons/file.svg"
-                        >
+                        src="src/icons/second_section_icons/file.svg">
+                        
                      <img class="carousele__icon carousele__icon--right"
                         data-icon-index="2"
                         src="src/icons/second_section_icons/desktop.svg">

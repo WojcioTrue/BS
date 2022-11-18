@@ -117,4 +117,4 @@ Room for improvement:
 - remove Bootstrap
 - create own breakpoints in CSS, so configuration and installation will be simpler
 - easier installation of icons folder
-- add multiple icons support (**now only can be 3 icons!!**)
+- add multiple icons support (**now can only be 3 icons!!**)

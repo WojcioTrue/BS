@@ -15,13 +15,10 @@
 
 
 ## General Information
-- Smooth animation for background particles .
-- Getting better understanding how particles can be generated, animated and modified.
-- Learning how `Window.requestAnimationFrame()` work.
-- modifying CSS properieties of particle using JavaScript.
-- working on HTMLCollection.
+- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*, used in many portfolio's of others developers.
+- this is alternative for Bootstrap carousele, with icons and captions for active element in carousele.
 
-
+- this is early version. **Works only with 3 elements/icons in carousele**.
 
 ## Technologies Used
 - JavaScript

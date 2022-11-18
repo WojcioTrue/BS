@@ -13,7 +13,7 @@
 
 
 ## General Information
-- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*, used in many portfolio's of others developers.
+- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*, because it's used in many portfolio's of others developers.
 - this is alternative for Bootstrap carousele, with icons and captions for active element in carousele.
 
 - this is early version. **Works only with 3 elements/icons in carousele**.
@@ -40,11 +40,13 @@
 
 
 ## Setup
-To use this carousele you need to install *Bootstrap* on your local project directory. In this repository I used Bootstrap 4.1.3. It's only used for making containers responsive, so I don't think there will be a problem with using other versions.
-After adding Bootstrap to your website, download folders from 'dist' folder. Copy them to your website project. Add css href in </head> element e.g.
+To use this carousele you need to install *Bootstrap* on your local project. In this repository I used Bootstrap 4.1.3. It's only used for making containers responsive, so I don't think there will be a problem with using other versions.
+After adding Bootstrap to your website, download folders from 'dist' folder. Copy them to your website project. Add css href in `</head>` element 
+**e.g.**
 
     <link rel="stylesheet" href="dist/css/Icon_carousele_style.css">
-Add script before </body> tag e.g.
+Add script before `</body>` tag 
+**e.g.**
 
     <script type="text/javascript" src="dist/js/carousele_icon.js"></script>
     </body>

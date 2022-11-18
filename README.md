@@ -41,11 +41,11 @@
 
 ## Setup
 To use this carousele you need to install *Bootstrap* on your local project. In this repository I used Bootstrap 4.1.3. It's only used for making containers responsive, so I don't think there will be a problem with using other versions.
-After adding Bootstrap to your website, download folders from 'dist' folder. Copy them to your website project. Add css href in `</head>` element 
+After adding Bootstrap to your website, download folders from 'dist' folder. Copy them to your website project. Add css href in `</head>` element </br>
 **e.g.**
 
     <link rel="stylesheet" href="dist/css/Icon_carousele_style.css">
-Add script before `</body>` tag 
+Add script before `</body>` tag </br>
 **e.g.**
 
     <script type="text/javascript" src="dist/js/carousele_icon.js"></script>

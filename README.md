@@ -15,7 +15,7 @@
 
 
 ## General Information
-- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*,because it's used in many portfolio's of others developers.
+- I wanted to create my own, nice looking plugin for website. I didn't want to use regular *Bootstrap Carousele*, used in many portfolio's of others developers.
 - this is alternative for Bootstrap carousele, with icons and captions for active element in carousele.
 
 - this is early version. **Works only with 3 elements/icons in carousele**.
@@ -28,6 +28,7 @@
 - ESLint
 - Gulp
 - Bootstrap (4.1.3)
+- RWD
 
 ## Screenshot
 ### mobile view
@@ -41,31 +42,58 @@
 
 
 ## Setup
-**How to install**<br/>
-To use this carousele you need to install *Bootstrap*
+To use this carousele you need to install *Bootstrap* on your local project directory. In this repository I used Bootstrap 4.1.3. It's only used for making containers responsive, so I don't think there will be a problem with using other versions.
+After adding Bootstrap to your website, download folders from 'dist' folder. Copy them to your website project. Add css href in </head> element e.g.
+
+    <link rel="stylesheet" href="dist/css/Icon_carousele_style.css">
+Add script before </body> tag e.g.
+
+    <script type="text/javascript" src="dist/js/carousele_icon.js"></script>
+    </body>
+
+U also need to download 'icons' folder from 'src' directory. Create 'src' folder in directory where your `index.html` is. Then, paste folder 'icons' inside 'src'.
 
 ## Usage
-After download and adding to your website, you need to choose which element should have this animated background.
-When you choosed element, just ad `id="animation"`.
+After you successfully setup your environment, paste code below where you want to use icons carousele.
 
-**e.g.**
 
-	<div id="animation"></div>
-**e.g. with changed default values**
-
-Here particle will be generated with:
-- margin-left with value between 0px and 100px
-- minimal height of 4px
-- maximum height of 15px
-- color of element will be set to "gold"
-<br/>
-
-	<div id="animation" 
-		data-left-margin-start="100" 
-		data-min-dimension="4"       
-		data-max-dimension="15" 
-		data-el-color="gold">
-	</div>
+    <section class='carousele__section'>
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-6 carousele__section--text">
+                  <h2>Title</h2>
+                  <!-- data-text-index for comparasion with data-icon index -->
+                  <p class="carousele__text" data-text-index="1">Description for file icon</p>
+                  <br>
+                  <p class="carousele__text" data-text-index="2">Description for desktop icon</p>
+                  <br>
+                  <p class="carousele__text" data-text-index="3">Description for repeat icon</p>
+               </div>
+               <div class="col-12 col-md-6 col-lg-6 carousele__section--svg">
+                  <span class="control__arrows__field" id="right">
+                  <img class="carousele__control__arrows"  src="src/icons/arrow_left.png">
+                  </span>
+                  <span class="control__arrows__field" id="left">
+                  <img class="carousele__control__arrows"  src="src/icons/arrow_right.png">
+                  </span>
+                  <div id="carousele__section--icons">
+                     <!-- data-icon-index for comparasion with data-text-index -->
+                     <img class="carousele__icon 
+                        carousele__icon--left"
+                        data-icon-index="3"
+                        src="src/icons/second_section_icons/reload.svg">
+                     <img class="carousele__icon carousele__icon--active"
+                        data-icon-index="1"
+                        src="src/icons/second_section_icons/file.svg"
+                        >
+                     <img class="carousele__icon carousele__icon--right"
+                        data-icon-index="2"
+                        src="src/icons/second_section_icons/desktop.svg">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
 ## Project Status
 Project is: _in progress_
@@ -74,15 +102,7 @@ Project is: _in progress_
 ## Room for Improvement
 
 Room for improvement:
-- make particles float from different sides(top to bottom, left to right etc.)
-- change shape of particle
-- add feature to change z-index of particles
-
-
-## Acknowledgements
-
-- This project was inspired by select menu in game 'apex legends'
-
-
-
-
+- remove Bootstrap
+- create own breakpoints in CSS, so configuration and installation will be simpler
+- easier installation of icons folder
+- add multiple icons support (**now only can be 3 icons!!**)

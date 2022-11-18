@@ -66,7 +66,9 @@ If we don't specify a value, particle will have black color.
 
 ## Screenshot
 **mobile view**
+<br/>
 ![alt text](/src/img/screen/mobile__screen.png)
+<br/>
 **desktop view**
 ![alt text](/src/img/screen/desktop__screen.png)
 
